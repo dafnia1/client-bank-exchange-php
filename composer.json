@@ -1,0 +1,27 @@
+{
+    "name": "kilylabs/client-bank-exchange-php",
+    "type": "library",
+    "description": "1CClientBankExchange parser written in PHP",
+    "keywords": ["1c","parser","1CClientBankExchange"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"Kily\\Tools1C\\ClientBankExchange\\": "src/ClientBankExchange"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Tests\\Kily\\Tools1C\\ClientBankExchange\\": "tests/ClientBankExchange/Tests"}
+    },
+    "authors": [
+        {
+            "name": "Alexander Bogdanov",
+            "email": "ab@dev.kily.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "ext-iconv": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
